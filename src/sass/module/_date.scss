@@ -1,0 +1,9 @@
+@use "global" as *;
+
+.date {
+  display: inline-block;
+  color: $white;
+  font-size: rem(16);
+  letter-spacing: normal;
+  line-height: 1.437;
+}

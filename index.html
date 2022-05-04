@@ -1,32 +1,145 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <meta name="format-detection" content="telephone=no" />
-  <!-- meta情報 -->
-  <title>CodeUps</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <meta name="robots" content="noindex">
-  <!-- ogp -->
-  <meta property="og:title" content="" />
-  <meta property="og:type" content="" />
-  <meta property="og:url" content="" />
-  <meta property="og:image" content="" />
-  <meta property="og:site_name" content="" />
-  <meta property="og:description" content="" />
-  <!-- ファビコン -->
-  <link rel="”icon”" href="" />
-  <!-- css -->
-  <link rel="stylesheet" href="./css/styles.css">
-  <!-- JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script defer src="./js/script.js"></script>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- meta情報 -->
+	<title>CodeUps</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="noindex">
+	<!-- ogp -->
+	<meta property="og:title" content="" />
+	<meta property="og:type" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<!-- ファビコン -->
+	<link rel="”icon”" href="" />
+	<!-- css -->
+	<link rel="stylesheet" href="./css/styles.css">
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script defer src="./js/script.js"></script>
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP&display=swap"
+		rel="stylesheet">
 </head>
+
 <body>
-  <div class="inner">
-  <p class="test">変更のテスト</p>
-</div>
+	<!-- header -->
+	<header class="header js-header">
+		<div class="header__inner">
+			<div class="header__box">
+				<h1 class="header__logo">
+					<a href="#">
+						<img src="./images/common/logo.svg" alt="codeups">
+					</a>
+				</h1><!-- /.header__logo -->
+				<button class="header__drawer hamburger js-drawer">
+					<div class="hamburger__body">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div><!-- /.hamburger__body -->
+				</button><!-- /.header__drawer js-drawer hamburger -->
+			</div><!-- /.header__box -->
+			<nav class="header__nav global-nav js-drawer-menu">
+				<ul class="global-nav__list">
+					<li class="global-nav__item">
+						<a href="#">トップ</a>
+					</li><!-- /.global-nav__item -->
+					<li class="global-nav__item">
+						<a href="#">お知らせ</a>
+					</li><!-- /.global-nav__item -->
+					<li class="global-nav__item">
+						<a href="#">事業内容</a>
+					</li><!-- /.global-nav__item -->
+					<li class="global-nav__item">
+						<a href="#">制作実績</a>
+					</li><!-- /.global-nav__item -->
+					<li class="global-nav__item">
+						<a href="#">企業概要</a>
+					</li><!-- /.global-nav__item -->
+					<li class="global-nav__item">
+						<a href="#">ブログ</a>
+					</li><!-- /.global-nav__item -->
+					<li class="global-nav__item">
+						<a href="#">お問い合わせ</a>
+					</li><!-- /.global-nav__item -->
+				</ul><!-- /.global-nav__list -->
+			</nav><!-- /.header__nav -->
+		</div><!-- /.header__inner -->
+	</header><!-- /.header -->
+<!-- header ここまで -->
+
+
+	<!-- main -->
+	<div class="main">
+		<a href="#" class="btn">全て見る</a><!-- /.btn -->
+		<div class="section__head">
+			<h2 class="section-title">事業内容</h2><!-- /.section-title -->
+			<span class="section-sub-title">Content</span><!-- /.section-sub-title -->
+		</div><!-- /.section-head -->
+		<span class="tag">お知らせ</span><!-- /.btn--small -->
+		<span class="date">2020.07.20</span>
+		<div class="blog-card">
+			<div class="blog-card__img-area">
+				<img src="/images/top/img-blog1.jpg" alt="" class="blog-card__img">
+			</div><!-- /.blog-card__img-area -->
+			<div class="blog-card__body">
+				<h3 class="blog-card__title">タイトルが入ります。タイトルが入ります。</h3><!-- /.blog-card__title -->
+				<p class="blog-card__text">説明文が入ります。説明文が入ります。説明文が入ります。</p><!-- /.blog-card__text -->
+			</div><!-- /.blog-card__body -->
+			<div class="blog-card__bottom">
+				<span class="blog-card__category">カテゴリ</span><!-- /.blog-card__category -->
+				<span class="blog-card__date">2021.07.20</span><!-- /.blog-card__date -->
+			</div><!-- /.blog-card__bottom -->
+		</div><!-- /.blog-card -->
+	</div><!-- /.main -->
+	<!-- main ここまで -->
+
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__head">
+				<a href="#" class="footer__logo">
+					<img src="./images/common/logo.svg" alt="codeups">
+				</a>
+				</a>
+			</div><!-- /.footer__head -->
+			<div class="footer__nav footer-nav">
+				<ul class="footer-nav__list">
+					<li class="footer-nav__item">
+						<a href="#">トップ</a>
+					</li><!-- /.footer-nav__item -->
+					<li class="footer-nav__item">
+						<a href="#">お知らせ</a>
+					</li><!-- /.footer-nav__item -->
+					<li class="footer-nav__item">
+						<a href="#">事業内容</a>
+					</li><!-- /.footer-nav__item -->
+					<li class="footer-nav__item">
+						<a href="#">企業概要</a>
+					</li><!-- /.footer-nav__item -->
+					<li class="footer-nav__item">
+						<a href="#">ブログ</a>
+					</li><!-- /.footer-nav__item -->
+					<li class="footer-nav__item">
+						<a href="#">お問い合わせ</a>
+					</li><!-- /.footer-nav__item -->
+				</ul><!-- /.footer-nav__list -->
+			</div><!-- /.footer__nav -->
+			<div class="footer__bottom">
+				<p class="footer__copy-right">© 2021 CodeUps Inc.</p><!-- /.footer__copy-right -->
+			</div><!-- /.footer__bottom -->
+		</div><!-- /.footer__inner -->
+	</footer><!-- /.footer -->
+	<!-- footer ここまで -->
 </body>
+
 </html>

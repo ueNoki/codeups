@@ -1,0 +1,12 @@
+@use "global" as *;
+
+.section-title {
+  color: $white;
+  font-size: rem(20);
+  font-weight: $regular;
+  letter-spacing: .1em;
+  @include mq() {
+    font-size: rem(30);
+    letter-spacing: .016em;
+  }
+}

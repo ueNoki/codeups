@@ -1,0 +1,23 @@
+@use "global" as *;
+
+.global-nav {
+  background-color: $black;
+  display: none;
+}
+
+.global-nav__list {
+  padding-top: rem(250);
+  padding-bottom: rem(100);
+  height: 100vh;
+  overflow: scroll;
+}
+
+
+.global-nav__item a {
+  display: block;
+  padding: rem(16) 0;
+  color: $white;
+  font-size: rem(16);
+  letter-spacing: .125em;
+  text-align: center;
+}

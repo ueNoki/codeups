@@ -1,0 +1,15 @@
+@use "global" as *;
+
+.section-sub-title {
+  color: $yellow;
+  font-family: $ff-serif;
+  font-size: rem(50);
+  line-height: 1.44;
+  letter-spacing: .04em;
+  opacity: .2;
+  @include mq() {
+    font-size: rem(110);
+    line-height: 1.436;
+    letter-spacing: .018em;
+  }
+}

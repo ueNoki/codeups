@@ -1,0 +1,40 @@
+@use "global" as *;
+
+body {
+  background: gray;
+}
+
+.header {
+  height: rem(80);
+  background-color: $black;
+}
+
+.header__inner {
+height: inherit;
+padding: 0 rem(22);
+}
+
+
+.header__box {
+  position: relative;
+  z-index: 200;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $black;
+}
+
+.header__logo {
+  width: rem(70)
+}
+
+.header__nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+}

@@ -1,0 +1,22 @@
+@use "global" as *;
+
+.footer{
+  padding: rem(48) 0;
+  color: $white;
+  text-align: center;
+}
+
+.footer__inner {
+  padding: 0 $padding-sp;
+
+}
+
+.footer__logo {
+  display: inline-block;
+  width: rem(70);
+}
+
+.footer__nav {
+  margin-top: rem(4);
+}
+
